@@ -368,7 +368,7 @@ font-weight: 600;
     justify-content: center;
 }
 input[type=email]{
-padding: 15px 0;
+padding: 15px 20px;
 
 font-weight: 600;
     font-size: 20px;
