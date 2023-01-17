@@ -369,6 +369,7 @@ font-weight: 600;
 }
 input[type=email]{
 padding: 15px 20px;
+margin: 0 50px;
 font-weight: 600;
     font-size: 20px;
     border: none;
