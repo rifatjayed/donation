@@ -15,7 +15,7 @@ section {
 
 button {
     padding: 15px 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     background: #FF5959;
     border-radius: 5px;
     border: none;
@@ -104,8 +104,6 @@ button {
     font-weight: 700;
     font-size: 25px;
     line-height: 36px;
-    /* text-align: center; */
-
     color: #707070;
 }
 
@@ -120,28 +118,124 @@ button {
     color: #FF5959;
 }
 
-.other-ammount{
+input[type=text]{
+    border: 1px solid transparent;
+    margin-top: 50px;
+    margin-bottom: 10px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
     color: #B3B3B3;
-    margin-top: 50px;
+
 }
-hr{
-   margin: 0 300px;
+
+hr {
+    margin: 0 300px;
     text-align: center;
     border: 1px solid #DADADA
 }
+
 /* donate-today-section-end */
 
 
+/* donate plan section strat */
+
+.donate-plan-section {
+    margin: 0 150px;
+}
+
+.donate-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.plan {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+}
+
+.plan2 {
+    background: rgba(255, 89, 89, 0.1);
+}
 
 
+.plan-title {
+    font-weight: 600;
+    margin: 15px 0;
+    font-size: 22px;
+    color: #121212
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+
+}
+
+/* donate plan section end */
+.contribution-section{
+    margin:0 150px;
+    display: flex;
+    gap: 50px;
+
+}
+.contribute-left{
+    width: 50%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #121212;
+}
+.description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-top: 20px;
+}
+.contribute-right {
+    width: 50%;
+}
+.contribute-right img{
+    width: 100%;
+}
+/* contribution section strat */
+
+/* contribution section end */
 
 
+/* update-section-strat */
 
+.update-container{
+    background: #FFF4D6;
+    padding: 80px;
+    margin: 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=email]{
+padding: 15px 20px;
+font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
 
+/* update-section-end */
 
 
 
@@ -154,44 +248,136 @@ hr{
     }
 
     .section-title {
-       font-size: 30px;
+        font-size: 30px;
     }
-    
- /* banner-section-strat */
-   .banner-section{
-    padding:0 50px;
-   } 
- .banner-title {
-    font-size: 40px;
+
+    /* banner-section-strat */
+    .banner-section {
+        padding: 0 50px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+
+    /* banner-section-end */
+
+
+
+    /* donate-today-section-strat */
+    .donate-today-section {}
+
+    .ammount-card {
+        margin-top: 20px 0;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .ammount {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0;
+
+        font-size: 20px;
+    }
+
+
+    hr {
+        margin: 0 50px;
+    }
+
+
+    /* donate plan section strat */
+
+    .donate-plan-section {
+        margin: 0;
+    }
+
+    .donate-plan, .contribution-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .plan {
+        margin: 10px 0;
+    }
+
+    /* donate plan section end */
+
+/* contribution section strat */
+
+.contribution-section{
+
+    gap: 0;
+
+}
+.contribute-left{
+    width: 100%;
+
+}
+.order{
+    order: 1;
 }
 
-
-/* banner-section-end */
-
-
-
-/* donate-today-section-strat */
-.donate-today-section {}
-
-.ammount-card {
-    margin-top: 20px 0;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
- gap: 30px;
+.order{
+    order: 2;
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #121212;
+}
+.description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-top: 20px;
+}
+.contribute-right {
+    width: 100%;
+    margin: 25px 0;
+   
+}
+.contribute-right img{
+    width: 100%;
 }
 
-.ammount {
-    width: 100px;
-    height: 100px;
+    /* contribution section end */
+
+
+/* update-section-strat */
+
+.update-container{
+   
+    padding: 20px;
+    margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    margin: 0;
-   
-    font-size: 20px;
 }
+input[type=email]{
+padding: 15px 20px;
+font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+/* update-section-end */
+
+
+
+
 
 
 
