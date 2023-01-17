@@ -253,6 +253,7 @@ font-weight: 600;
 
     /* banner-section-strat */
     .banner-section {
+        background-position: center;
         padding: 0 50px;
     }
 
